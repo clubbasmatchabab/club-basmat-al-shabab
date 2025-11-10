@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدونة النادي وأخباره - نادي بصمة الشباب</title>
+    <meta name="description" content="آخر أخبار وأنشطة ومقالات نادي بصمة الشباب. تابعوا جديدنا.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'primary-green': '#10B981', 
+                'secondary-blue': '#3B82F6',
+                'accent-yellow': '#FBBF24', 
+                'neutral-gray': '#F3F4F6',
+              }
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-neutral-gray font-sans">
+    <div w3-include-html="header.html"></div>
+    <header class="shadow-lg sticky top-0 z-50 bg-white border-b border-primary-green/20">
+        <nav class="flex justify-between items-center h-20 max-w-7xl mx-auto px-4 lg:px-8">
+            <div class="text-2xl font-extrabold text-secondary-blue tracking-wider">
+                نادي <span class="text-primary-green">بصمة</span> الشباب
+            </div>
+            <div class="space-x-6 space-x-reverse hidden lg:flex font-semibold">
+                <a href="index.html" class="text-gray-700 hover:text-primary-green transition duration-300">الرئيسية</a>
+                <a href="blog.html" class="text-secondary-blue font-semibold transition duration-300">الأخبار والمدونة</a> 
+                <a href="#" class="text-gray-700 hover:text-primary-green transition duration-300">الأنشطة</a>
+                <a href="documents.html" class="text-gray-700 hover:text-primary-green transition duration-300">القوانين والوثائق</a>
+                <a href="contact.html" class="text-gray-700 hover:text-primary-green transition duration-300">تواصل معنا</a> 
+            </div>
+            <a href="join.html" class="hidden md:block px-5 py-2 text-md font-bold rounded-full bg-accent-yellow text-gray-900 hover:bg-primary-green hover:text-white shadow-md transition duration-300 transform hover:scale-105">
+                انضم إلينا الآن
+            </a>
+            <button class="lg:hidden text-gray-700 hover:text-primary-green text-2xl">&#9776;</button>
+        </nav>
+    </header>
+
+    <main class="py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+            <div class="text-center mb-10">
+                <h1 class="text-5xl font-extrabold text-secondary-blue mb-3">مدونة بصمة الشباب</h1>
+                <p class="text-xl text-gray-600">آخر الأنشطة، الإعلانات الهامة، والمقالات الهادفة</p>
+                <div class="mt-6 border-b-4 border-primary-green w-24 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <article class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 transform hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+                    <div class="h-48 bg-primary-green/20 flex items-center justify-center text-gray-500 font-semibold">
+                        [مكان الصورة الرئيسية للمقال]
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm font-semibold text-accent-yellow uppercase">أنشطة</span>
+                        <h2 class="text-xl font-bold text-gray-900 mt-2 mb-3">افتتاح الموسم الجديد وعودة الأنشطة الرياضية</h2>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-3">بدأ نادي بصمة الشباب موسمه الجديد بفعالية رياضية مذهلة شارك فيها أكثر من 50 عضواً، مما يبعث الحماس للموسم المقبل.</p>
+                        <a href="#" class="text-primary-green font-semibold hover:text-secondary-blue transition duration-200 flex items-center justify-end">
+                            اقرأ التفاصيل &larr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 transform hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+                    <div class="h-48 bg-secondary-blue/20 flex items-center justify-center text-gray-500 font-semibold">
+                        [مكان الصورة الرئيسية للمقال]
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm font-semibold text-accent-yellow uppercase">إعلان رسمي</span>
+                        <h2 class="text-xl font-bold text-gray-900 mt-2 mb-3">إغلاق باب التسجيل للمرحلة الأولى</h2>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-3">نعلن عن إغلاق باب التسجيل الأولي بعد اكتمال النصاب، والآن نبدأ مرحلة فرز طلبات العضوية في النظام الإداري.</p>
+                        <a href="#" class="text-primary-green font-semibold hover:text-secondary-blue transition duration-200 flex items-center justify-end">
+                            اقرأ التفاصيل &larr;
+                        </a>
+                    </div>
+                </article>
+
+                <article class="bg-white rounded-xl shadow-xl overflow-hidden border border-gray-100 transform hover:shadow-2xl hover:scale-[1.02] transition duration-300">
+                    <div class="h-48 bg-accent-yellow/20 flex items-center justify-center text-gray-500 font-semibold">
+                        [مكان الصورة الرئيسية للمقال]
+                    </div>
+                    <div class="p-6">
+                        <span class="text-sm font-semibold text-accent-yellow uppercase">تطوير ذاتي</span>
+                        <h2 class="text-xl font-bold text-gray-900 mt-2 mb-3">كيف يمكن للعمل التطوعي صقل مهاراتك القيادية؟</h2>
+                        <p class="text-gray-600 text-sm mb-4 line-clamp-3">مقالة إرشادية حول أهمية الانخراط في اللجان وتأثيره المباشر على بناء سيرة ذاتية قوية وخبرات عملية.</p>
+                        <a href="#" class="text-primary-green font-semibold hover:text-secondary-blue transition duration-200 flex items-center justify-end">
+                            اقرأ التفاصيل &larr;
+                        </a>
+                    </div>
+                </article>
+
+                </div>
+            
+            <div class="flex justify-center mt-12 space-x-2 space-x-reverse">
+                <a href="#" class="px-4 py-2 text-sm font-bold text-white bg-secondary-blue rounded-lg shadow-md">1</a>
+                <a href="#" class="px-4 py-2 text-sm font-bold text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-neutral-gray">2</a>
+                <a href="#" class="px-4 py-2 text-sm font-bold text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-neutral-gray">3</a>
+                <a href="#" class="px-4 py-2 text-sm font-bold text-gray-700 bg-white border border-gray-300 rounded-lg hover:bg-neutral-gray">التالي &rarr;</a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-900 text-white mt-20 p-10">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-4">
+            <div>
+                <h3 class="text-lg font-bold mb-4 text-primary-green">نادي بصمة الشباب</h3>
+                <p class="text-sm text-gray-400">نظام شامل لإدارة الأعضاء والأنشطة والمالية، وفقاً لرؤية النادي.</p>
+            </div>
+            
+            <div>
+                <h3 class="text-lg font-bold mb-4">روابط سريعة</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="text-gray-400 hover:text-primary-green transition duration-200">الرئيسية</a></li>
+                    <li><a href="blog.html" class="text-gray-400 hover:text-primary-green transition duration-200">المدونة والأخبار</a></li>
+                    <li><a href="contact.html" class="text-gray-400 hover:text-primary-green transition duration-200">تواصل معنا</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-bold mb-4">الوثائق</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="documents.html" class="text-gray-400 hover:text-primary-green transition duration-200">قوانين النادي</a></li>
+                    <li><a href="privacy.html" class="text-gray-400 hover:text-primary-green transition duration-200">سياسة الخصوصية</a></li>
+                    <li><a href="terms.html" class="text-gray-400 hover:text-primary-green transition duration-200">شروط الاستخدام</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-bold mb-4">تابعنا</h3>
+                <div class="flex space-x-3 space-x-reverse">
+                    <a href="#" class="text-gray-400 hover:text-accent-yellow transition duration-200">فيسبوك</a>
+                    <a href="#" class="text-gray-400 hover:text-accent-yellow transition duration-200">تويتر</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="border-t border-gray-700 mt-8 pt-6 text-center text-xs text-gray-500">
+            &copy; 2025 نادي بصمة الشباب. جميع الحقوق محفوظة.
+        </div>
+    </footer>
+</body>
+</html>
