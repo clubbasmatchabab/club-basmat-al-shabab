@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "/**.php",
-      "use": "@mostafagohar/vercel-php"  <-- هذا هو التعديل
+      "use": "@mostafagohar/vercel-php"  
     }
   ],
   "routes": [
