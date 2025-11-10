@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "/**.php",
-      "use": "@php-vercel/server" 
+      "use": "@php-runtime/php-build-toolkit" 
     }
   ],
   "routes": [
